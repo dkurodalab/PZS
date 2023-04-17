@@ -1,5 +1,6 @@
-# PZS_analysis -  an altenrative FFCF extraction method
-Evaluate FFCF from 2DIR spectra of a single or multi-component system (overlapping spectral bands - resolved and unresolved)
+# PZS_analysis
+An alternative FFCF extraction method
+Evaluate FFCF from 2DIR spectra of a single or multi-component system 
 
 # INPUT PARAMETERS
   folder (required) -> Foldername containing 2DIR spectra
