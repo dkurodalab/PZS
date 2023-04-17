@@ -1,5 +1,5 @@
 # PZS_analysis
-An alternative FFCF extraction method
+An alternative FFCF extraction method - MATLAB Code
 
 Evaluate FFCF from 2DIR spectra of a single or multi-component system (overlapping spectral bands - resolved or unresolved)
 
