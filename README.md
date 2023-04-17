@@ -57,6 +57,24 @@ This Matlab code evaluates FFCF from 2DIR spectra of a single or multi-component
        
        output -> struct file ('spectral_region','analysis','results','figures')
        
+                'single'
+                  
+                    Selected radius of frequency window 
+
+                    Selected TPZS vs. waiting time
+
+                    CLS vs. TPZS
+
+                    CL-PZS
+                  
+                'overlapping'
+                  
+                    FR-PZS
+
+                    Selected FR-PZS vs. waiting time for each component
+                
+                
+       
        
  # DEMO 
     Default parameters are used for following examples:
