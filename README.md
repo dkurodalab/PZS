@@ -16,7 +16,7 @@ Evaluate FFCF from 2DIR spectra of a single or multi-component system (overlappi
   
                 'single' or 'overlapping'
 
-  freq_r (optional)-> Frequency window parameters
+  freq_r (optional) -> Frequency window parameters
   
                      scalar input - [radius] (single component anaysis)
                      
@@ -29,6 +29,8 @@ Evaluate FFCF from 2DIR spectra of a single or multi-component system (overlappi
                         wtauL - lower bound for wtau frequency
                         
                         wtauU - upper bound for wtau frequency
+                        
+                      'Default' = []
   
   norder (optional) -> nth order pseudo-Zernike moment (larger than 4 is recommended)
   
@@ -56,7 +58,9 @@ Evaluate FFCF from 2DIR spectra of a single or multi-component system (overlappi
        output -> struct file ('spectral_region','analysis','results','figures')
        
        
- # DEMO (Default parameters are used)
+ # DEMO 
+    Default parameters are used for following examples.
+    
     Single component analysis
     
       [data_2D,output]= PZS('Simulation','single')
