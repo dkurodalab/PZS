@@ -1,7 +1,7 @@
 # PZS_analysis
 An alternative FFCF extraction method - MATLAB Code
 
-Evaluate FFCF from 2DIR spectra of a single or multi-component system (overlapping spectral bands - resolved or unresolved)
+This Matlab code evaluates FFCF from 2DIR spectra of a single or multi-component system (overlapping spectral bands - resolved or unresolved).
 
 # INPUT PARAMETERS
   folder (required) -> Foldername containing 2DIR spectra
