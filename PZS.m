@@ -22,7 +22,7 @@ function [data_2D,output]=PZS(folder,N,freq_r,norder,nExpDec,datatype)
                         %wtauU - upper bound for wtau frequency
                     % 'Default' 
                     % 'single' - full maximum width at 90% of 2DIR trace at t0. 
-                    % 'overlapping' - full width maximum at 50% of 2DIR trace at t0.
+                    % 'overlapping' - full width maximum at 75% of 2DIR trace at t0.
 % norder (optional)  -> order of pseudo-Zernike moment ( norder larger...
                         ... than 4 is recommended)
                     % 'Default' - 15
