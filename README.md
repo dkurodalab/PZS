@@ -59,7 +59,7 @@ This Matlab code evaluates FFCF from 2DIR spectra of a single or multi-component
        
        
  # DEMO 
-    Default parameters are used for following examples.
+    Default parameters are used for following examples:
     
     Single component analysis
     
