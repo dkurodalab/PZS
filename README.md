@@ -74,8 +74,6 @@ This Matlab code evaluates FFCF from 2DIR spectra of a single or multi-component
                     Selected FR-PZS vs. waiting time for each component
                 
                 
-       
-       
  # DEMO 
     Default parameters are used for following examples:
     
@@ -100,4 +98,5 @@ This Matlab code evaluates FFCF from 2DIR spectra of a single or multi-component
       txt2fig_2DIR('Simulation3')
 
       [data_2D,output]= PZS('Simulation3','overlapping')
+
       
