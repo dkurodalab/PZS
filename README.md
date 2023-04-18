@@ -1,18 +1,14 @@
 # PZS_analysis
 An alternative FFCF extraction method - Matlab Code
 
+
+
 This Matlab code evaluates FFCF from 2DIR spectra of a single or multi-component system (overlapping spectral bands - resolved or unresolved).
 
 Datasets : "Single_Transition_Simulated_2DIR", "Two_Transition_Resolved_Simulated_2DIR" and "Two_Transition_Unresolved_Simulated_2DIR"
 
 # INPUT PARAMETERS
-  Select the specific folder containing 2DIR spectra
-  
-                        Matlab Figure Format
-                        
-                        FigureName -'Tw_()' where () is filled with waiting time in femtoseconds
-                        
-                        FigureAxes - wtau (y-direction) and wt (x-direction)
+  [data_2D,output]=PZS(N,freq_r,norder,nExpDec,datatype) 
   
   N (required)-> Different analysis
   
@@ -79,28 +75,41 @@ Datasets : "Single_Transition_Simulated_2DIR", "Two_Transition_Resolved_Simulate
  # DEMO 
     Default parameters are used for following examples:
     
-      First, copy both .m file (matlab code) into the folder containg .txt file (2DIR data)
+      First, txt2fig_2DIR.m file is executed to convert 2DIR .txt file to matlab figures and save in a new folder.
 
-      Second, txt2fig_2DIR.m file is executed to convert 2DIR .txt file to matlab figures and save in a new folder.
-
-      Then, PZS.m file is executed for PZS analysis.
+      Second, PZS.m file is executed for PZS analysis.                   
     
-            Single component analysis - Download "Single_Transition_Simulated_2DIR"
+                        Single component analysis - Download "Single_Transition_Simulated_2DIR"
 
-              txt2fig_2DIR('Simulation1')
+                          txt2fig_2DIR('Simulation1')
 
-              [data_2D,output]= PZS('single') - Select the 'Simulation1' folder when the dialog box pops up.
+                          [data_2D,output]= PZS('single') - Select the 'Simulation1' folder when the dialog box pops up.
 
-            Two component analysis (resolved) - Download "Two_Transition_Resolved_Simulated_2DIR"
+                        Two component analysis (resolved) - Download "Two_Transition_Resolved_Simulated_2DIR"
 
-              txt2fig_2DIR('Simulation2')
+                          txt2fig_2DIR('Simulation2')
 
-              [data_2D,output]= PZS('overlapping') - Select the 'Simulation2' folder when the dialog box pops up.
+                          [data_2D,output]= PZS('overlapping') - Select the 'Simulation2' folder when the dialog box pops up.
 
-            Two component anaylsis (unresolved) - Download "Two_Transition_Unresolved_Simulated_2DIR"
+                        Two component anaylsis (unresolved) - Download "Two_Transition_Unresolved_Simulated_2DIR"
 
-              txt2fig_2DIR('Simulation3')
+                          txt2fig_2DIR('Simulation3')
 
-              [data_2D,output]= PZS('overlapping') - Select the 'Simulation3' folder when the dialog box pops up.
+                          [data_2D,output]= PZS('overlapping') - Select the 'Simulation3' folder when the dialog box pops up.
+                          
+      FR-PZS analysis with tunable parameters (One Example)
+      
+            [data_2D,output]= PZS('overlapping',[2200 2240 2215 2235],15,1,'')
+              
+              N = 'overlapping'
+              
+              freq_r = [2200 2240 2215 2235]
+              
+              norder = 15
+              
+              nExpDec = 1 (single exponential decay fit)
+              
+              datatype = '' (no peak shift corretion)
+      
 
       
