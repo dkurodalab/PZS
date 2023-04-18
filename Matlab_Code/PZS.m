@@ -71,7 +71,7 @@ end
 %% Save input 2DIR data
 data_2D.spectra=S_mat;
 data_2D.Tw_fs=sort(Tw);
-data_2D.wtau=data_s{1,2}';
+data_2D.wtau=data_s{1,2};
 data_2D.wt=data_s{1,3};
 
 cd(cf);
