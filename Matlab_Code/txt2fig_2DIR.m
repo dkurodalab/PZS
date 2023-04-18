@@ -18,4 +18,5 @@ sp=mkdir(fig_folder);
         savefig([erase(txt_list(n).name,'.txt'),'.fig'])
         cd(cf);
     end
+    cd(cf);
 end
