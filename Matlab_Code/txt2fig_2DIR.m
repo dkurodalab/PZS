@@ -1,7 +1,7 @@
 function txt2fig_2DIR(fig_folder)
 %%
     % Convert 2DIR .txt file into matlab figures at each waiting time
-    % Save the generated matlab figures in a new folder (fig_folder)
+    % Save the generated matlab figures in a new folder (fig_folder) in the same directory as .txt file
 %%
 cd(uigetdir)
 wtau=readmatrix('wtau_freq.txt');
