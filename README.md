@@ -6,7 +6,7 @@ This Matlab code evaluates FFCF from 2DIR spectra of a single or multi-component
 Datasets : "Single_Transition_Simulated_2DIR", "Two_Transition_Resolved_Simulated_2DIR" and "Two_Transition_Unresolved_Simulated_2DIR"
 
 # INPUT PARAMETERS
-  folder (required) -> Foldername containing 2DIR spectra
+  Select the specific folder containing 2DIR spectra
   
                         Matlab Figure Format
                         
@@ -89,18 +89,18 @@ Datasets : "Single_Transition_Simulated_2DIR", "Two_Transition_Resolved_Simulate
 
               txt2fig_2DIR('Simulation1')
 
-              [data_2D,output]= PZS('Simulation1','single')
+              [data_2D,output]= PZS('single') - Select the 'Simulation1' folder when the dialog box pops up.
 
             Two component analysis (resolved) - Download "Two_Transition_Resolved_Simulated_2DIR"
 
               txt2fig_2DIR('Simulation2')
 
-              [data_2D,output]= PZS('Simulation2','overlapping')
+              [data_2D,output]= PZS('overlapping') - Select the 'Simulation2' folder when the dialog box pops up.
 
             Two component anaylsis (unresolved) - Download "Two_Transition_Unresolved_Simulated_2DIR"
 
               txt2fig_2DIR('Simulation3')
 
-              [data_2D,output]= PZS('Simulation3','overlapping')
+              [data_2D,output]= PZS('overlapping') - Select the 'Simulation3' folder when the dialog box pops up.
 
       
