@@ -42,7 +42,7 @@ Datasets : "Single_Transition_Simulated_2DIR", "Two_Transition_Resolved_Simulate
   
                           single exponential decay fit (1)
                           
-                          area under the curve for multi-exponential decay fit (0)
+                          multi-exponential decay fit (>1)
                           
                           'Default' = 1
  
