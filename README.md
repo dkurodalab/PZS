@@ -28,6 +28,8 @@ Datasets : "Single_Transition_Simulated_2DIR", "Two_Transition_Resolved_Simulate
                         
                         wtauU - upper bound for wtau frequency
                         
+                        [ADD boundary conditions]
+                        
                       'Default' = []
   
   norder (optional) -> nth order pseudo-Zernike moment (larger than 4 is recommended)
@@ -99,11 +101,11 @@ Datasets : "Single_Transition_Simulated_2DIR", "Two_Transition_Resolved_Simulate
                           
       FR-PZS analysis with tunable parameters (One Example)
       
-            [data_2D,output]= PZS('overlapping',[2200 2240 2215 2235],15,1,'')
+            [data_2D,output]= PZS('overlapping',[2200 2240 2180 2260],15,1,'')
               
               N = 'overlapping'
               
-              freq_r = [2200 2240 2215 2235]
+              freq_r = [2200 2240 2180 2260]
               
               norder = 15
               
