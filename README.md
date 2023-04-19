@@ -28,9 +28,11 @@ Datasets : "Single_Transition_Simulated_2DIR", "Two_Transition_Resolved_Simulate
                         
                         wtauU - upper bound for wtau frequency
                         
-                        [ADD boundary conditions]
+                        First, suitable wtU and wtL should be selected when these paramters are used
                         
-                      'Default' = []
+                        Then, apporpriate wtauU and wtauL shall be used to fully cover the region of interest for analysis 
+                        
+                        'Default' = []
   
   norder (optional) -> nth order pseudo-Zernike moment (larger than 4 is recommended)
   
@@ -105,7 +107,7 @@ Datasets : "Single_Transition_Simulated_2DIR", "Two_Transition_Resolved_Simulate
               
               N = 'overlapping'
               
-              freq_r = [2200 2240 2180 2260]
+              freq_r = [2180 2250 2190 2250]
               
               norder = 15
               
