@@ -658,7 +658,7 @@ end
         row_w=1:dr;
         col_w=1:di;
         S_s=S_p(row_w,col_w,:);
-        wtau_s=wtau_c(row_w,:);
+        wtau_s=wtau_c(row_w);
      
         rl=length(col_w);
         pc=PZP_calc(rl,norder);
