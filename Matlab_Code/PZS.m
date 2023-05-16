@@ -386,7 +386,7 @@ end
         set(gca,'Ylim',[min(tau)-1 max(tau)+1]);
         set(gca,'Xlim',[min(wtau_scan)-5 max(wtau_scan)+5]);
         set(gcf, 'position',[figV figH figL figW]);
-        output.analysis.PZS_centerline=[wtau_scan,tau];
+        output.analysis.PZS_centerline=[wtau_scan',tau];
 
         figure(output.fig2(2)), scatter(CLS_m,ffcf0,60,'k','filled','s');
         ylabel('PZS');
